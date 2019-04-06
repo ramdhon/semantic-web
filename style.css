@@ -175,7 +175,18 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .css-carousel {
+    max-height: 200px;
+  }
+  .css-cover {
+    height: 200px;
+  }
   .css-gallery {
     height: 400px;
+  }
+  .css-social-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
   }
 }
