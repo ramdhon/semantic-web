@@ -29,27 +29,27 @@
         <div class="carousel-item active">
           <img
             src="https://images.pexels.com/photos/2048865/pexels-photo-2048865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            class="d-block w-100 css-cover css-top" alt="galata tower">
+            class="d-block w-100 css-cover css-h css-top" alt="galata tower">
         </div>
         <div class="carousel-item">
           <img
             src="https://images.pexels.com/photos/1493079/pexels-photo-1493079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            class="d-block w-100 css-cover" alt="turkish tea">
+            class="d-block w-100 css-cover css-h" alt="turkish tea">
         </div>
         <div class="carousel-item">
           <img
             src="https://images.pexels.com/photos/87010/pamukkale-lime-sinter-terrace-calcium-speleothems-87010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            class="d-block w-100 css-cover" alt="pamukkale">
+            class="d-block w-100 css-cover css-h" alt="pamukkale">
         </div>
         <div class="carousel-item">
           <img
             src="https://images.pexels.com/photos/879478/pexels-photo-879478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            class="d-block w-100 css-cover" alt="hagia sophia">
+            class="d-block w-100 css-cover css-h" alt="hagia sophia">
         </div>
         <div class="carousel-item">
           <img
             src="https://images.pexels.com/photos/57553/pexels-photo-57553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            class="d-block w-100 css-cover" alt="black sea">
+            class="d-block w-100 css-cover css-h" alt="black sea">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -99,31 +99,31 @@
         <h3 id="gallery">GALLERY</h3>
         <br>
         <div class="css-gallery">
-          <div class="css-gallery-1 css-gallery-set">
+          <div class="css-gallery-1 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(1)">
             <div class="css-overlay"><span>ataturk</span></div>
           </div>
-          <div class="css-gallery-2 css-gallery-set">
+          <div class="css-gallery-2 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(2)">
             <div class="css-overlay"><span>bosphorus tour</span></div>
           </div>
-          <div class="css-gallery-3 css-gallery-set">
+          <div class="css-gallery-3 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(3)">
             <div class="css-overlay"><span>15 temmuz bridge</span></div>
           </div>
-          <div class="css-gallery-4 css-gallery-set">
+          <div class="css-gallery-4 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(4)">
             <div class="css-overlay"><span>great mosque</span></div>
           </div>
-          <div class="css-gallery-5 css-gallery-set">
+          <div class="css-gallery-5 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(5)">
             <div class="css-overlay"><span>van cat</span></div>
           </div>
-          <div class="css-gallery-6 css-gallery-set">
+          <div class="css-gallery-6 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(6)">
             <div class="css-overlay"><span>people</span></div>
           </div>
-          <div class="css-gallery-7 css-gallery-set">
+          <div class="css-gallery-7 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(7)">
             <div class="css-overlay"><span>ortakoy</span></div>
           </div>
-          <div class="css-gallery-8 css-gallery-set">
+          <div class="css-gallery-8 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(8)">
             <div class="css-overlay"><span>food</span></div>
           </div>
-          <div class="css-gallery-9 css-gallery-set">
+          <div class="css-gallery-9 css-gallery-set" data-toggle="modal" data-target="#modalCenter" onclick="getModal(9)">
             <div class="css-overlay"><span>history</span></div>
           </div>
         </div>
@@ -133,12 +133,12 @@
         <br>
         <blockquote class="blockquote text-center">
           <p class="mb-0">Give me a <strong>Turkish Army</strong>. I will conquer world.</p>
-          <footer class="blockquote-footer">Napoleon Bonaparte</span></footer>
+          <footer class="blockquote-footer">Napoleon Bonaparte</footer></footer>
         </blockquote>
         <br>
         <blockquote class="blockquote text-center">
           <p class="mb-0">If one had but a <strong>single glance</strong> to give the world, one should gaze on <strong>Istanbul</strong>.</p>
-          <footer class="blockquote-footer">Alphonse de Lamartine</span></footer>
+          <footer class="blockquote-footer">Alphonse de Lamartine</footer>
         </blockquote>
         <br>
         <blockquote class="blockquote text-center">
@@ -155,6 +155,26 @@
     </ul>
   </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCenterTitle">...</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="" alt="" class="css-cover css-modal">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="css-footer">
     <div class="css-content-footer">
       <div class="css-social">
@@ -169,6 +189,8 @@
       <br><span>&#169 2019 turkey. Discover Potential, by Muhammad Ramadhoni</span>
     </div>
   </footer>
+
+  <script src="./script.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

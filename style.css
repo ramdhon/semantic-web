@@ -4,6 +4,14 @@
 
 .css-cover {
   object-fit: cover;
+}
+
+.css-modal { 
+  width: 100%;
+  height: 100%;
+}
+
+.css-h {
   height: 450px;
 }
 
@@ -163,6 +171,7 @@ body {
 .css-overlay:hover {
   background-color: rgba(255,255,255,0.6);
   color: rgba(138, 83, 58, 1);
+  cursor: pointer;
 }
 .css-overlay span {
   top: 50%;
@@ -178,7 +187,7 @@ body {
   .css-carousel {
     max-height: 200px;
   }
-  .css-cover {
+  .css-h {
     height: 200px;
   }
   .css-gallery {
